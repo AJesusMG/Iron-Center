@@ -8,42 +8,42 @@ import CTA from "./components/CTA";
 
 const plans = [
   {
-    name: "BASIC",
-    description: "Perfect for beginners starting their fitness journey.",
+    name: "BÁSICO",
+    description: "Perfecto para principiantes que inician su viaje en el fitness.",
     price: 29,
     features: [
-      "Full gym access",
-      "Locker room access",
-      "Basic fitness assessment",
-      "Access to mobile app",
+      "Acceso completo al gimnasio",
+      "Acceso a vestidores",
+      "Evaluación física básica",
+      "Acceso a la app móvil",
     ],
   },
   {
     name: "PRO",
-    description: "For dedicated athletes who want more from their workout.",
+    description: "Para atletas dedicados que buscan más de su entrenamiento.",
     price: 59,
     highlighted: true,
     features: [
-      "Everything in Basic",
-      "Unlimited group classes",
-      "2 personal training sessions/month",
-      "Nutrition consultation",
-      "Priority equipment booking",
-      "Guest passes (2/month)",
+      "Todo lo incluido en Básico",
+      "Clases grupales ilimitadas",
+      "2 sesiones de entrenamiento personal/mes",
+      "Consulta de nutrición",
+      "Reserva prioritaria de equipo",
+      "Pases para invitados (2/mes)",
     ],
   },
   {
     name: "ELITE",
-    description: "The ultimate fitness experience for maximum results.",
+    description: "La experiencia de fitness definitiva para resultados máximos.",
     price: 99,
     features: [
-      "Everything in Pro",
-      "Unlimited personal training",
-      "Custom meal plans",
-      "Recovery zone access",
-      "Exclusive member events",
-      "24/7 gym access",
-      "Free merchandise",
+      "Todo lo incluido en Pro",
+      "Entrenamiento personal ilimitado",
+      "Planes de alimentación personalizados",
+      "Acceso a la zona de recuperación",
+      "Eventos exclusivos para miembros",
+      "Acceso al gimnasio 24/7",
+      "Mercancía oficial gratis",
     ],
   },
 ];
@@ -51,18 +51,18 @@ const plans = [
 const services = [
   {
     number: "01",
-    title: "Weight Training",
+    title: "Entrenamiento de Pesas",
     description:
-      "Build muscle mass and strength with our comprehensive weight training programs designed for all levels.",
-    features: ["Free weights", "Machine circuits", "Progressive overload"],
+      "Construye masa muscular y fuerza con nuestros programas integrales de peso libre y máquinas, diseñados para todos los niveles.",
+    features: ["Pesas libres", "Circuitos de máquinas", "Sobrecarga progresiva"],
     imageUrl: "/fitness-img.avif",
   },
   {
     number: "02",
-    title: "Personal Coaching",
+    title: "Entrenamiento Personal",
     description:
-      "One-on-one sessions with certified trainers who create personalized plans to achieve your specific goals.",
-    features: ["Custom programs", "Nutrition guidance", "Progress tracking"],
+      "Sesiones personalizadas uno a uno con entrenadores certificados que crean planes a tu medida para lograr tus objetivos específicos.",
+    features: ["Programas personalizados", "Guía nutricional", "Seguimiento de progreso"],
     imageUrl: "/crossfit-img.avif",
   },
 ];
@@ -74,22 +74,22 @@ export default function Home() {
       <main className="bg-zinc-900">
         <Hero />
 
-        <section id="about">
+        <section id="nosotros">
           <About />
         </section>
 
-        <section id="programs" className="bg-black px-6 py-24">
+        <section id="programas" className="bg-black px-6 py-24">
           <div className="mx-auto max-w-7xl flex flex-col gap-16">
             <div className="flex flex-col items-center gap-4 text-center">
               <span className="text-xs font-bold uppercase tracking-widest text-red-600">
-                Our Programs
+                Nuestros Programas
               </span>
               <h2 className="font-black text-5xl uppercase leading-tight text-white md:text-6xl">
-                Train your way to greatness
+                Entrena tu camino hacia la grandeza
               </h2>
               <p className="max-w-2xl text-sm leading-relaxed text-zinc-400">
-                Choose from our diverse range of programs designed to help you achieve
-                any fitness goal, whether you're just starting out or pushing your limits.
+                Elige entre nuestra variedad de programas diseñados para ayudarte a alcanzar
+                cualquier meta de fitness, ya sea que estés empezando o superando tus límites.
               </p>
             </div>
             <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
@@ -100,17 +100,17 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="pricing" className="bg-zinc-900 px-6 py-24">
+        <section id="precios" className="bg-zinc-900 px-6 py-24">
           <div className="mx-auto max-w-7xl flex flex-col gap-16">
             <div className="flex flex-col items-center gap-4 text-center">
               <span className="text-xs font-bold uppercase tracking-widest text-red-600">
-                Membership
+                Membresía
               </span>
               <h2 className="font-black text-5xl uppercase leading-tight text-white md:text-6xl">
-                Choose your plan
+                Elige tu plan
               </h2>
               <p className="max-w-2xl text-sm leading-relaxed text-zinc-400">
-                Flexible plans designed for every goal and budget.
+                Planes flexibles diseñados para cada objetivo y presupuesto.
               </p>
             </div>
             <div className="grid w-full grid-cols-1 items-center gap-8 md:grid-cols-3">
@@ -123,7 +123,7 @@ export default function Home() {
 
         <CTA />
 
-        <section id="contact">
+        <section id="contacto">
           <Footer />
         </section>
 

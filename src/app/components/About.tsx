@@ -10,23 +10,23 @@ import {
 const values = [
   {
     icon: Target,
-    title: "Discipline",
-    description: "We believe in consistent effort and dedication to achieve lasting results.",
+    title: "Disciplina",
+    description: "Creemos en el esfuerzo constante y la dedicación para lograr resultados duraderos.",
   },
   {
     icon: Dumbbell,
-    title: "Strength",
-    description: "Building physical and mental strength that transcends the gym walls.",
+    title: "Fuerza",
+    description: "Construimos fuerza física y mental que trasciende las paredes del gimnasio.",
   },
   {
     icon: Users,
-    title: "Community",
-    description: "A supportive environment where everyone motivates each other to excel.",
+    title: "Comunidad",
+    description: "Un entorno de apoyo donde todos se motivan mutuamente para destacar.",
   },
   {
     icon: Trophy,
-    title: "Excellence",
-    description: "We push boundaries and strive for the best version of ourselves.",
+    title: "Excelencia",
+    description: "Desafiamos los límites y nos esforzamos por alcanzar nuestra mejor versión.",
   },
 ]
 
@@ -40,7 +40,7 @@ const About = () => {
           <div className="relative h-140 overflow-hidden rounded-2xl">
             <Image
               src="/gym.jpg"
-              alt="Iron Center gym interior"
+              alt="Interior del gimnasio Iron Center"
               fill
               sizes="(max-width: 768px) 100vw, 50vw"
               className="object-cover"
@@ -49,7 +49,7 @@ const About = () => {
           {/* Badge */}
           <div className="absolute bottom-0 right-0 translate-x-4 translate-y-4 rounded-2xl bg-red-600 px-8 py-6 text-white">
             <p className="font-black text-4xl">10+</p>
-            <p className="mt-1 text-sm font-semibold">Years of Excellence</p>
+            <p className="mt-1 text-sm font-semibold">Años de Excelencia</p>
           </div>
         </div>
 
@@ -57,20 +57,20 @@ const About = () => {
         <div className="flex flex-col gap-8">
           <div className="flex flex-col gap-4">
             <span className="text-xs font-bold uppercase tracking-widest text-red-600">
-              About Us
+              Sobre Nosotros
             </span>
             <h2 className="font-black text-5xl uppercase leading-tight text-white">
-              More than a gym. A lifestyle.
+              Más que un gimnasio. Un estilo de vida.
             </h2>
             <p className="text-sm leading-relaxed text-zinc-400">
-              Iron Center Fitness Club was founded with a simple mission: to create a space
-              where anyone, from beginners to elite athletes, can achieve their fitness goals.
-              Our state-of-the-art facility, combined with world-class trainers, provides the
-              perfect environment for transformation.
+              Iron Center Fitness Club fue fundado con una misión simple: crear un espacio
+              donde cualquiera, desde principiantes hasta atletas de alto rendimiento, pueda lograr
+              sus objetivos de fitness. Nuestras instalaciones de vanguardia, combinadas con entrenadores
+              de nivel mundial, brindan el entorno perfecto para la transformación.
             </p>
             <p className="text-sm leading-relaxed text-zinc-400">
-              We believe fitness is not just about physical strength—it's about building
-              mental resilience, discipline, and becoming the best version of yourself.
+              Creemos que el fitness no se trata solo de fuerza física; se trata de construir
+              resiliencia mental, disciplina y convertirte en la mejor versión de ti mismo.
             </p>
           </div>
 

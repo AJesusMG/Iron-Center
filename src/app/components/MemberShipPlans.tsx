@@ -28,7 +28,7 @@ const MemberShipPlans = ({
     >
       {highlighted && (
         <span className="absolute -top-4 left-1/2 -translate-x-1/2 rounded-full bg-yellow-400 px-4 py-1 text-xs font-black tracking-widest text-zinc-900">
-          MOST POPULAR
+          MÁS POPULAR
         </span>
       )}
 
@@ -45,7 +45,7 @@ const MemberShipPlans = ({
         </span>
         <span className="font-black text-7xl leading-none">{price}</span>
         <span className={cn("pb-2 text-sm", highlighted ? "text-red-200" : "text-zinc-500")}>
-          /month
+          /mes
         </span>
       </div>
 
@@ -69,7 +69,7 @@ const MemberShipPlans = ({
             : "bg-red-600 text-white hover:bg-red-700"
         )}
       >
-        GET STARTED
+        EMPEZAR AHORA
       </Button>
     </div>
   )

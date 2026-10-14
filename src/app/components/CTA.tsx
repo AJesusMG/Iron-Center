@@ -1,7 +1,7 @@
 import { ArrowRight, CheckCircle } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-const perks = ["No Contracts", "Cancel Anytime", "7-Day Free Trial"]
+const perks = ["Sin Contratos", "Cancela en Cualquier Momento", "Prueba Gratuita de 7 Días"]
 
 const CTASection = () => {
   return (
@@ -20,20 +20,20 @@ const CTASection = () => {
       <div className="relative z-10 mx-auto flex max-w-3xl flex-col items-center gap-8 text-center">
 
         <h2 className="font-black text-5xl uppercase leading-tight text-white md:text-6xl">
-          Ready to transform your body?
+          ¿Listo para transformar tu cuerpo?
         </h2>
 
         <p className="max-w-xl text-sm leading-relaxed text-red-100">
-          Join Iron Center today and get your first week free. No contracts, no commitments
-          —just results.
+          Únete a Iron Center hoy y obtén tu primera semana gratis. Sin contratos, sin compromisos
+          —solo resultados.
         </p>
 
         <div className="flex items-center gap-4">
           <Button className="gap-2 bg-white px-6 font-bold text-red-600 hover:bg-zinc-100">
-            Start Free Trial <ArrowRight className="h-4 w-4" />
+            Comenzar Prueba Gratis <ArrowRight className="h-4 w-4" />
           </Button>
           <Button className="bg-black px-6 font-bold text-white hover:bg-zinc-900">
-            Schedule a Tour
+            Agendar un Recorrido
           </Button>
         </div>
 

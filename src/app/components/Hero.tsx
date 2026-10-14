@@ -3,9 +3,9 @@ import { ArrowRight, Play } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const stats = [
-  { value: "15K+", label: "Active Members" },
-  { value: "50+", label: "Expert Trainers" },
-  { value: "10+", label: "Years Experience" },
+  { value: "15K+", label: "Miembros Activos" },
+  { value: "50+", label: "Entrenadores Expertos" },
+  { value: "10+", label: "Años de Experiencia" },
 ];
 
 const HeroSection = () => {
@@ -30,36 +30,36 @@ const HeroSection = () => {
           {/* Badge */}
           <span className="flex w-fit items-center gap-2 rounded-full border border-zinc-700 bg-black/40 px-4 py-1.5 text-xs font-semibold text-red-500 backdrop-blur-sm">
             <span className="h-1.5 w-1.5 rounded-full bg-red-500" />
-            Premium Fitness Experience
+            Experiencia de Fitness Premium
           </span>
 
           {/* Heading */}
           <div className="flex flex-col gap-1">
             <h1 className="font-black text-6xl uppercase leading-none tracking-tight text-white md:text-7xl">
-              Train Hard.
+              Entrena Duro.
             </h1>
             <h1 className="font-black text-6xl uppercase leading-none tracking-tight text-red-600 md:text-7xl">
-              Become Stronger.
+              Hazte Más Fuerte.
             </h1>
           </div>
 
           {/* Description */}
           <p className="text-sm leading-relaxed text-zinc-300 md:text-base">
-            Transform your body and mind at Iron Center. Where dedication meets
-            results, and every rep counts towards your strongest self.
+            Transforma tu cuerpo y mente en Iron Center. Donde la dedicación
+            encuentra resultados y cada repetición cuenta para tu versión más fuerte.
           </p>
 
           {/* CTAs */}
           <div className="flex items-center gap-4">
             <Button className="gap-2 bg-red-600 px-6 font-bold hover:bg-red-700">
-              Start Your Journey <ArrowRight className="h-4 w-4" />
+              Inicia Tu Viaje <ArrowRight className="h-4 w-4" />
             </Button>
             <Button
               variant="outline"
               className="gap-2 border-zinc-600 bg-transparent font-bold text-white hover:bg-white/10 hover:text-white"
             >
               <Play className="h-3 w-3 fill-white text-white" />
-              Watch Tour
+              Ver Recorrido
             </Button>
           </div>
 
@@ -79,7 +79,7 @@ const HeroSection = () => {
         {/* Scroll indicator */}
         <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2">
           <span className="text-xs font-semibold uppercase tracking-widest text-zinc-500">
-            Scroll
+            Desliza
           </span>
           <div className="flex h-8 w-5 items-start justify-center rounded-full border border-zinc-600 p-2">
             <div className="h-1.5 w-1 animate-bounce rounded-full bg-red-500" />

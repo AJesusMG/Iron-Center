@@ -33,43 +33,43 @@ const ServiceCard = ({
       {/* Image */}
       <div className="relative h-64 overflow-hidden">
         <Image
-  src={imageUrl}
-  alt={imageAlt}
-  fill
-  sizes="(max-width: 768px) 100vw, 50vw"
-  className="object-cover brightness-75 transition-all duration-500 group-hover:brightness-90 group-hover:scale-105"
-/>
+          src={imageUrl}
+          alt={imageAlt}
+          fill
+          sizes="(max-width: 768px) 100vw, 50vw"
+          className="object-cover brightness-75 transition-all duration-500 group-hover:brightness-90 group-hover:scale-105"
+        />
         <span className="absolute right-4 top-4 flex h-10 w-10 items-center justify-center rounded-full bg-red-600 font-black text-sm text-white">
           {number}
         </span>
       </div>
-        <div className="pl-4">
-      <CardHeader>
-        <CardTitle className="font-black text-2xl uppercase tracking-wide text-white">
-          {title}
-        </CardTitle>
-        <CardDescription className="text-zinc-500 pb-4">
-          {description}
-        </CardDescription>
-      </CardHeader>
+      <div className="pl-4">
+        <CardHeader>
+          <CardTitle className="font-black text-2xl uppercase tracking-wide text-white">
+            {title}
+          </CardTitle>
+          <CardDescription className="text-zinc-500 pb-4">
+            {description}
+          </CardDescription>
+        </CardHeader>
 
-      <CardContent>
-        <ul className="flex flex-col gap-2">
-          {features.map((feature) => (
-            <li key={feature} className="flex items-center gap-3 text-sm text-zinc-300">
-              <span className="h-2 w-2 shrink-0 rounded-full bg-yellow-400" />
-              {feature}
-            </li>
-          ))}
-        </ul>
-      </CardContent>
-</div>
+        <CardContent>
+          <ul className="flex flex-col gap-2">
+            {features.map((feature) => (
+              <li key={feature} className="flex items-center gap-3 text-sm text-zinc-300">
+                <span className="h-2 w-2 shrink-0 rounded-full bg-yellow-400" />
+                {feature}
+              </li>
+            ))}
+          </ul>
+        </CardContent>
+      </div>
       <CardFooter>
         <Button
           variant="link"
           className="gap-2 pl-4 text-red-600 transition-[gap] duration-200 group-hover:gap-3"
         >
-          Learn More <ArrowRight className="h-4 w-4" />
+          Saber más <ArrowRight className="h-4 w-4" />
         </Button>
       </CardFooter>
 
